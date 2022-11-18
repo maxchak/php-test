@@ -1,9 +1,5 @@
 // Get table headers to handle clicks
-const try1 = document.querySelector("#try1");
-const try2 = document.querySelector("#try2");
-const try3 = document.querySelector("#try3");
-const try4 = document.querySelector("#try4");
-const total = document.querySelector("#total");
+const tableHeaders = document.querySelectorAll("th[data-column]");
 
 // Get table and tbody to sort entries
 const table = document.querySelector("#table");
@@ -16,7 +12,7 @@ const theadRow = rows.shift();
 // Number of current column, according to which the table is sorted
 let currentSortColumn = 6;
 
-[try1, try2, try3, try4, total].forEach((th) => {
+tableHeaders.forEach((th) => {
   th.addEventListener("click", (e) => {
     // Get column number from dataset
     const column = +e.target.dataset.column;

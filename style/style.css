@@ -49,10 +49,10 @@ body {
 .table th.active {
   background-color: #1b6cb8;
 }
-.table th[id]:hover {
+.table th[data-column]:hover {
   background-color: #1b6cb8;
 }
-.table th[id]:not(.active) {
+.table th[data-column]:not(.active) {
   cursor: pointer;
 }
 .table tr {

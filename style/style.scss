@@ -54,11 +54,11 @@ body {
 		background-color: $active-color;
 	}
 
-	th[id]:hover {
+	th[data-column]:hover {
 		background-color: $active-color;
 	}
 
-	th[id]:not(.active) {
+	th[data-column]:not(.active) {
 		cursor: pointer;
 	}
 

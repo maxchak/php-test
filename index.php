@@ -29,7 +29,6 @@
 					<th class="table__header">Участник</th>
 					<th 
 						class="table__header" 
-						id="try1" 
 						title="Отсортировать по результату первой попытки" 
 						data-column="2"
 					>
@@ -37,7 +36,6 @@
 					</th>
 					<th
 						class="table__header" 
-						id="try2" 
 						title="Отсортировать по результату второй попытки" 
 						data-column="3"
 					>
@@ -45,7 +43,6 @@
 					</th>
 					<th 
 						class="table__header" 
-						id="try3" 
 						title="Отсортировать по результату третьей попытки" 
 						data-column="4"
 					>
@@ -53,7 +50,6 @@
 					</th>
 					<th 
 						class="table__header" 
-						id="try4" 
 						title="Отсортировать по результату четвертой попытки" 
 						data-column="5"
 					>
@@ -61,7 +57,6 @@
 					</th>
 					<th 
 						class="table__header active"
-						id="total"
 						title="Отсортировать по итоговому результату"
 						data-column="6"
 					>
